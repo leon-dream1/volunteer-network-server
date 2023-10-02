@@ -121,4 +121,4 @@ run().catch(console.dir);
 
 
 
-app.listen(5000, () => console.log("Port is Running"));
+app.listen(process.env.PORT || 5000, () => console.log("Port is Running"));
